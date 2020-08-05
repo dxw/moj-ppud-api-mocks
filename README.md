@@ -12,6 +12,9 @@ You can then access the [Prison API](https://api.prison.service.justice.gov.uk/s
 
 You can add sample data to the mocks by editing the files in `specs`. See https://meta.stoplight.io/docs/prism/docs/guides/01-mocking.md#response-examples for details on how to add example data.
 
+Make sure you add the examples in the correct response for the endpoint!
+
+
 ## Updating the specs
 
 If the released versions change, you can update the specs automatically by running `make update_specs`. NOTE that this will remove any existing example data, so be careful when you commit.
