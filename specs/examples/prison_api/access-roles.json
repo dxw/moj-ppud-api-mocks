@@ -1,0 +1,16 @@
+{
+  "deep-thought": {
+     "summary": "Deep Thought has access to everything",
+     "value": {
+        "items": [
+           {
+              "parentRoleCode": "none",
+              "roleCode": "42",
+              "roleFunction": "Finding the answer to Life, the Universe, and Everything",
+              "roleId": 42,
+              "roleName": "Deep Thought"
+           }
+        ]
+     }
+  }
+}

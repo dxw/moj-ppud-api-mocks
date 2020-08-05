@@ -14,6 +14,7 @@ You can add sample data to the mocks by editing the files in `specs`. See https:
 
 Make sure you add the examples in the correct response for the endpoint!
 
+For an example, try `curl http://localhost:7783/prison_api/api/access-roles`
 
 ## Updating the specs
 
