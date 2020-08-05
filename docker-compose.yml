@@ -1,0 +1,27 @@
+version: '3'
+services:
+  caddy:
+    image: caddy
+    command: caddy run --config=/config/Caddyfile
+    volumes:
+      - ./caddy/data:/data
+      - ./caddy/config:/config
+    ports:
+      - 7783:7783 # 7783 is PPUD on a phone keypad. Seemed apt.
+    depends_on:
+      - prison_api
+      - community_api
+  prison_api:
+    image: stoplight/prism:3
+    command: >
+      mock -p 4010 --host 0.0.0.0
+      /specs/prison_api.json
+    volumes:
+      - ./specs:/specs
+  community_api:
+    image: stoplight/prism:3
+    command: >
+      mock -p 4010 --host 0.0.0.0
+      /specs/community_api.json
+    volumes:
+      - ./specs:/specs
