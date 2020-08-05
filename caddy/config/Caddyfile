@@ -1,0 +1,11 @@
+:7783
+
+route /prison_api/* {
+	uri strip_prefix /prison_api
+	reverse_proxy prison_api:4010
+}
+
+route /community_api/* {
+	uri strip_prefix /community_api
+	reverse_proxy community_api:4010
+}
