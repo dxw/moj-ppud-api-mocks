@@ -1,0 +1,158 @@
+{
+  "54321C": {
+    "contactDetails": {
+      "allowSMS": true,
+      "emailAddresses": [
+        "string"
+      ],
+      "phoneNumbers": [
+        {
+          "number": "string",
+          "type": "TELEPHONE"
+        }
+      ]
+    },
+    "currentDisposal": "string",
+    "currentExclusion": true,
+    "currentRestriction": true,
+    "dateOfBirth": "string",
+    "firstName": "string",
+    "gender": "string",
+    "middleNames": [
+      "string"
+    ],
+    "offenderId": 0,
+    "offenderProfile": {
+      "disabilities": [
+        {
+          "disabilityId": 0,
+          "disabilityType": {
+            "code": "string",
+            "description": "string"
+          },
+          "endDate": "string",
+          "notes": "string",
+          "startDate": "string"
+        }
+      ],
+      "ethnicity": "string",
+      "immigrationStatus": "string",
+      "nationality": "string",
+      "notes": "string",
+      "offenderDetails": "string",
+      "offenderLanguages": {
+        "languageConcerns": "string",
+        "otherLanguages": [
+          "string"
+        ],
+        "primaryLanguage": "string",
+        "requiresInterpreter": true
+      },
+      "previousConviction": {
+        "convictionDate": "string",
+        "detail": {
+          "additionalProp1": "string",
+          "additionalProp2": "string",
+          "additionalProp3": "string"
+        }
+      },
+      "religion": "string",
+      "remandStatus": "string",
+      "riskColour": "string",
+      "secondaryNationality": "string",
+      "sexualOrientation": "string"
+    },
+    "otherIds": {
+      "crn": "54321C",
+      "croNumber": "123456/04A",
+      "immigrationNumber": "A1234567",
+      "mostRecentPrisonerNumber": "G12345",
+      "niNumber": "AA112233B",
+      "nomsNumber": "A1234CR",
+      "pncNumber": "2004/0712343H"
+    },
+    "partitionArea": "string",
+    "previousSurname": "string",
+    "softDeleted": true,
+    "surname": "string",
+    "title": "string"
+  },
+  "98765C": {
+    "contactDetails": {
+      "allowSMS": true,
+      "emailAddresses": [
+        "string"
+      ],
+      "phoneNumbers": [
+        {
+          "number": "string",
+          "type": "TELEPHONE"
+        }
+      ]
+    },
+    "currentDisposal": "string",
+    "currentExclusion": true,
+    "currentRestriction": true,
+    "dateOfBirth": "string",
+    "firstName": "string",
+    "gender": "string",
+    "middleNames": [
+      "string"
+    ],
+    "offenderId": 0,
+    "offenderProfile": {
+      "disabilities": [
+        {
+          "disabilityId": 0,
+          "disabilityType": {
+            "code": "string",
+            "description": "string"
+          },
+          "endDate": "string",
+          "notes": "string",
+          "startDate": "string"
+        }
+      ],
+      "ethnicity": "string",
+      "immigrationStatus": "string",
+      "nationality": "string",
+      "notes": "string",
+      "offenderDetails": "string",
+      "offenderLanguages": {
+        "languageConcerns": "string",
+        "otherLanguages": [
+          "string"
+        ],
+        "primaryLanguage": "string",
+        "requiresInterpreter": true
+      },
+      "previousConviction": {
+        "convictionDate": "string",
+        "detail": {
+          "additionalProp1": "string",
+          "additionalProp2": "string",
+          "additionalProp3": "string"
+        }
+      },
+      "religion": "string",
+      "remandStatus": "string",
+      "riskColour": "string",
+      "secondaryNationality": "string",
+      "sexualOrientation": "string"
+    },
+    "otherIds": {
+      "crn": "98765C",
+      "croNumber": "123456/04A",
+      "immigrationNumber": "A1234567",
+      "mostRecentPrisonerNumber": "G12345",
+      "niNumber": "AA112233B",
+      "nomsNumber": "A1234CR",
+      "pncNumber": "2004/0712343H"
+    },
+    "partitionArea": "string",
+    "previousSurname": "string",
+    "softDeleted": true,
+    "surname": "string",
+    "title": "string"
+  }
+}

@@ -14,7 +14,9 @@ You can add sample data to the mocks by editing the files in `specs`. See https:
 
 Make sure you add the examples in the correct response for the endpoint!
 
-For an example, try `curl http://localhost:7783/prison_api/api/access-roles`
+For a simple example, try `curl http://localhost:7783/prison_api/api/access-roles`
+
+If you want to select a specific example, you need to specify it in a header: `curl http://localhost:7783/community_api/api/offenders/crn/whatever -H "Prefer: example=98765C"`
 
 ## Updating the specs
 

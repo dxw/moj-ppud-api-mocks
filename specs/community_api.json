@@ -3457,6 +3457,9 @@
                   "description" : "Happy path",
                   "schema" : {
                      "$ref" : "#/definitions/OffenderDetailSummary"
+                  },
+                  "examples" : {
+                     "$ref": "examples/community_api/offender-detail-summary.json"
                   }
                },
                "401" : {
