@@ -15,3 +15,5 @@ You can add sample data to the mocks by editing the files in `specs`. See https:
 ## Updating the specs
 
 If the released versions change, you can update the specs automatically by running `make update_specs`. NOTE that this will remove any existing example data, so be careful when you commit.
+
+This process requires `json_pp` installed on your system. If you're using Homebrew on MacOS, you can run `brew bundle` to install it using the included `Brewfile`.
