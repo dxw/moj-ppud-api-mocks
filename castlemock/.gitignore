@@ -3,3 +3,4 @@ graphql
 rest
 tmpFiles
 token
+soap/event/v1/*.event

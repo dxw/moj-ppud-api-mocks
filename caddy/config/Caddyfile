@@ -13,3 +13,8 @@ route /community_api/* {
 route /castlemock/* {
 	reverse_proxy castlemock:8080
 }
+
+route /ppud_wam/* {
+	uri replace ppud_wam castlemock/mock/soap/project/brq1J4 1
+	reverse_proxy castlemock:8080
+}
