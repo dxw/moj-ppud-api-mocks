@@ -1,6 +1,6 @@
 # PPUD API mocks
 
-This repo contains mock APIs for the PPUD project. The Prison API (NOMIS) and the Community API (Delius) are mocked using .
+This repo contains mock APIs for the PPUD project.
 
 Included APIs:
 
@@ -35,3 +35,7 @@ If you want to select a specific example, you need to specify it in a header: `c
 If the released versions change, you can update the specs automatically by running `make update_specs`. NOTE that this will remove links to existing example data, so be careful when you commit.
 
 This process requires `json_pp` installed on your system. If you're using Homebrew on MacOS, you can run `brew bundle` to install it using the included `Brewfile`.
+
+### PPUD WAM API
+
+The PPUD WAM SOAP API is mocked with [Castlemock](https://castlemock.github.io/), based on the WSDL from the live service.

@@ -25,3 +25,7 @@ services:
       /specs/community_api.json
     volumes:
       - ./specs:/specs
+  castlemock:
+    image: castlemock/castlemock
+    volumes:
+      - ./castlemock:/root/.castlemock

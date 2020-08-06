@@ -9,3 +9,7 @@ route /community_api/* {
 	uri strip_prefix /community_api
 	reverse_proxy community_api:4010
 }
+
+route /castlemock/* {
+	reverse_proxy castlemock:8080
+}
