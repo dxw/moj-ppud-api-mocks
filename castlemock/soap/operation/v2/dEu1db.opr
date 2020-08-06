@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapOperation>
+    <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+    <defaultBody>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;web:DeletePreferredLocationResponse&gt;?&lt;/web:DeletePreferredLocationResponse&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;</defaultBody>
+    <forwardedEndpoint>http://localhost:7293/PanelMember.svc</forwardedEndpoint>
+    <httpMethod>POST</httpMethod>
+    <id>dEu1db</id>
+    <identifyStrategy>ELEMENT_NAMESPACE</identifyStrategy>
+    <mockOnFailure>false</mockOnFailure>
+    <name>DeletePreferredLocation</name>
+    <networkDelay>0</networkDelay>
+    <operationIdentifier>
+        <name>DeletePreferredLocation</name>
+        <namespace>http://tempuri.org/</namespace>
+    </operationIdentifier>
+    <originalEndpoint>http://localhost:7293/PanelMember.svc</originalEndpoint>
+    <portId>7wXs6G</portId>
+    <responseStrategy>RANDOM</responseStrategy>
+    <simulateNetworkDelay>false</simulateNetworkDelay>
+    <soapVersion>SOAP11</soapVersion>
+    <status>MOCKED</status>
+</soapOperation>

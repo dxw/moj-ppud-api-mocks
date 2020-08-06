@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapPort>
+    <id>zO1A1a</id>
+    <name>BasicHttpBinding_IWAMMessage</name>
+    <projectId>brq1J4</projectId>
+    <uri>BasicHttpBinding_IWAMMessage</uri>
+</soapPort>

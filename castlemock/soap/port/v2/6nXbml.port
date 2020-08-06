@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapPort>
+    <id>6nXbml</id>
+    <name>BasicHttpBinding_IDocument</name>
+    <projectId>brq1J4</projectId>
+    <uri>BasicHttpBinding_IDocument</uri>
+</soapPort>

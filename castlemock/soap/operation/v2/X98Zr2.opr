@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soapOperation>
+    <currentResponseSequenceIndex>0</currentResponseSequenceIndex>
+    <defaultBody>&lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/"&gt;
+   &lt;soapenv:Header/&gt;
+   &lt;soapenv:Body&gt;
+      &lt;web:GetDetailsFromResetPasswordTokenResponse&gt;?&lt;/web:GetDetailsFromResetPasswordTokenResponse&gt;
+   &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;</defaultBody>
+    <forwardedEndpoint>http://localhost:7293/Security.svc</forwardedEndpoint>
+    <httpMethod>POST</httpMethod>
+    <id>X98Zr2</id>
+    <identifyStrategy>ELEMENT_NAMESPACE</identifyStrategy>
+    <mockOnFailure>false</mockOnFailure>
+    <name>GetDetailsFromResetPasswordToken</name>
+    <networkDelay>0</networkDelay>
+    <operationIdentifier>
+        <name>GetDetailsFromResetPasswordToken</name>
+        <namespace>http://tempuri.org/</namespace>
+    </operationIdentifier>
+    <originalEndpoint>http://localhost:7293/Security.svc</originalEndpoint>
+    <portId>wRlGFq</portId>
+    <responseStrategy>RANDOM</responseStrategy>
+    <simulateNetworkDelay>false</simulateNetworkDelay>
+    <soapVersion>SOAP11</soapVersion>
+    <status>MOCKED</status>
+</soapOperation>
